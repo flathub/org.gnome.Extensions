@@ -29,11 +29,10 @@
         },
         {
           "type": "patch",
-          "path": "0001-extensions-app-Add-compatibility-with-GNOME-3.34.patch"
-        },
-        {
-          "type": "patch",
-          "path": "0002-extensions-app-Mention-version-requirement-in-metain.patch"
+          "paths": [
+            "0001-extensions-app-Add-compatibility-with-GNOME-3.34.patch",
+            "0002-extensions-app-Mention-version-requirement-in-metain.patch"
+          ]
         },
         {
           "type": "shell",
