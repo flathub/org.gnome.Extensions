@@ -3,7 +3,7 @@
   "runtime": "org.gnome.Platform",
   "runtime-version": "3.36",
   "sdk": "org.gnome.Sdk",
-  "command": "gnome-shell-extension-prefs",
+  "command": "gnome-extensions-app",
   "finish-args": [
     "--share=ipc", "--socket=fallback-x11",
     "--socket=wayland",
@@ -24,8 +24,8 @@
         {
           "type": "git",
           "url": "https://gitlab.gnome.org/GNOME/gnome-shell.git",
-          "tag": "3.36.1",
-          "commit": "8fda054dc53e558efa3a6a1e1d75b84bd01c51ee"
+          "tag": "3.36.2",
+          "commit": "2a2634439cde19e73e7d41ca812f513898c89165"
         },
         {
           "type": "patch",
