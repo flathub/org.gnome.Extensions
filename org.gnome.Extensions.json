@@ -3,7 +3,7 @@
   "runtime": "org.gnome.Platform",
   "runtime-version": "3.36",
   "sdk": "org.gnome.Sdk",
-  "command": "gnome-extensions-app",
+  "command": "gnome-shell-extension-prefs",
   "finish-args": [
     "--share=ipc", "--socket=fallback-x11",
     "--socket=wayland",
