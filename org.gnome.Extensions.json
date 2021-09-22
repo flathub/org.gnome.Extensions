@@ -1,7 +1,7 @@
 {
   "app-id": "org.gnome.Extensions",
   "runtime": "org.gnome.Platform",
-  "runtime-version": "40",
+  "runtime-version": "41",
   "sdk": "org.gnome.Sdk",
   "command": "gnome-extensions-app",
   "finish-args": [
@@ -26,8 +26,8 @@
         {
           "type": "git",
           "url": "https://gitlab.gnome.org/GNOME/gnome-shell.git",
-          "tag": "40.0",
-          "commit": "c40d382c5634ca4f92e3bf2f6e7a7ed0d0e8d46b"
+          "tag": "41.0",
+          "commit": "0bf515eb10bfbf32306c5106ac58870941a7c71a"
         },
         {
           "type": "patch",
