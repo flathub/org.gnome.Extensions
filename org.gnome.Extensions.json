@@ -9,12 +9,7 @@
     "--device=dri",
     "--socket=wayland",
     "--talk-name=org.gnome.SessionManager",
-    "--talk-name=org.gnome.Shell.Extensions",
-
-    /* GNOME 3.34 support */
-    "--talk-name=org.gnome.Shell",
-    "--filesystem=xdg-run/dconf", "--filesystem=~/.config/dconf:ro",
-    "--talk-name=ca.desrt.dconf", "--env=DCONF_USER_CONFIG_DIR=.config/dconf"
+    "--talk-name=org.gnome.Shell.Extensions"
   ],
   "modules": [
     {
@@ -32,8 +27,7 @@
         {
           "type": "patch",
           "paths": [
-            "0001-extensions-app-Add-compatibility-with-GNOME-3.34.patch",
-            "0002-extensions-app-Mention-version-requirement-in-metain.patch"
+            "0001-extensions-app-Mention-version-requirement-in-metain.patch"
           ]
         },
         {
