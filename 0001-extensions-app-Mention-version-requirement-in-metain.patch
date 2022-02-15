@@ -16,7 +16,7 @@ index 1bc1a8111..c6c1fe664 100644
        GNOME Extensions handles updating extensions, configuring extension preferences and removing or disabling unwanted extensions.
      </p>
 +    <p>
-+      The application requires GNOME 3.34 or newer to work.
++      The application requires GNOME 3.36 or newer to work.
 +    </p>
    </description>
  
