@@ -21,8 +21,8 @@
         {
           "type": "git",
           "url": "https://gitlab.gnome.org/GNOME/gnome-shell.git",
-          "tag": "46.0",
-          "commit": "0463511457612ca87f7426b3b01356d1d85bee9b"
+          "tag": "46.1",
+          "commit": "0d0aadf013f78a7f7f1dc984d0d812971864b934"
         },
         {
           "type": "patch",
