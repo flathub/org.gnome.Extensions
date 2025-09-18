@@ -1,7 +1,7 @@
 {
   "app-id": "org.gnome.Extensions",
   "runtime": "org.gnome.Platform",
-  "runtime-version": "48",
+  "runtime-version": "49",
   "sdk": "org.gnome.Sdk",
   "command": "gnome-extensions-app",
   "finish-args": [
@@ -21,8 +21,14 @@
         {
           "type": "git",
           "url": "https://gitlab.gnome.org/GNOME/gnome-shell.git",
-          "tag": "48.1",
-          "commit": "52c517c8f6c199a1d6f5118fae500ef69ea845ae"
+          "tag": "49.0",
+          "commit": "0632740d08e14aa42565a1274879cb1ba4e31cdd"
+        },
+        {
+          "type": "git",
+          "url": "https://gitlab.gnome.org/GNOME/libshew.git",
+          "dest": "subprojects/extensions-app/subprojects/libshew",
+          "commit": "ed782477cb5164320ae4f731d49bc5d475ab2a52"
         },
         {
           "type": "patch",
